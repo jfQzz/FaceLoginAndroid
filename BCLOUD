@@ -1,0 +1,3 @@
+BUILD_SUBMITTER -u . -x -e ubuntu -m baidu/aip-android/FaceLogin -c "cd baidu/aip-android/FaceLogin && chmod -R +x ./
+ &&
+./build.sh"

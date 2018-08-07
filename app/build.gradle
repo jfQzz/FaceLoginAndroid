@@ -1,0 +1,58 @@
+/*
+ * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ */
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId  "com.meibaa.face.facedemo"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+
+
+        def alias = "meibaa"
+        def keypass = "123456"
+        def filePath = "D:/android/appkey/common.jks"  //如  ../facesharp.jks//签名文件路径
+        def password = "ZAB147258369"
+
+        debug {
+            keyAlias alias
+            keyPassword keypass
+            storeFile file(filePath)
+            storePassword(password)
+        }
+        release {
+            keyAlias alias
+            keyPassword keypass
+            storeFile file(filePath)
+            storePassword(password)
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs', project(':facesdk').file('libs')
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(":facesdk")
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+}

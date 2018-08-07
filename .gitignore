@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/libraries
+/faceplatform-ui/faceplatform-ui.iml
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild

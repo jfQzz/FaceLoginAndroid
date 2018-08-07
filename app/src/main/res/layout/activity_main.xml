@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="注册" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="演示注册流程，包含有动作活体检测，确保注册用户为真人，并完成人脸注册操作" />
+
+    <Button
+        android:id="@+id/login1_btn"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="快速检测登录(推荐)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="【推荐】多次检测与采集人脸，并优化UI界面。采集图片将会判断是否活体（防止二次翻拍）" />
+
+    <Button
+        android:id="@+id/detected_btn"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+
+        android:text="人脸认证登录" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="用户名登录后，刷脸完成登录。同时检测采集的图片是否为活体（防止二次翻拍）" />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:text="重置本地用户信息" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<resources>
+    <string name="app_name">FaceSDK</string>
+
+
+    <string name="hint_move_into_frame">把脸移入框内</string>
+    <string name="hint_come_closer">再靠近一点儿</string>
+    <string name="hint_move_further">请离远一点儿</string>
+    <string name="hint_head_higher">头抬高些</string>
+    <string name="hint_head_down">头低一点</string>
+    <string name="hint_turn_left">向左转转</string>
+    <string name="hint_turn_right">向右转转</string>
+
+    <string name="hint_move_left">向左移动</string>
+    <string name="hint_move_up">向上移动</string>
+    <string name="hint_move_right">向右移动</string>
+    <string name="hint_move_down">向下移动</string>
+
+    <string name="hint_occlusion_in_left_eye">左眼有遮挡</string>
+    <string name="hint_occlusion_in_right_eye">右眼有遮挡</string>
+    <string name="hint_occlusion_in_nose">鼻子有遮挡</string>
+    <string name="hint_occlusion_in_mouth">嘴巴有遮挡</string>
+    <string name="hint_occlusion_in_left_cheek">左侧脸颊有遮挡</string>
+    <string name="hint_occlusion_in_right_cheek">右侧脸颊有遮挡</string>
+    <string name="hint_occlusion_in_chin">下颚有遮挡</string>
+    <string name="hint_occlusion_in_face">脸部有遮挡</string>
+
+    <string name="hint_light_low">光线再亮些</string>
+    <string name="hint_keep_still">请保持不动</string>
+    <string name="hint_timeout">检测超时</string>
+    <string name="hint_success">验证成功</string>
+    <string name="hint_very_good">非常好</string>
+
+    <string name="action_blink">眨眨眼</string>
+    <string name="action_blink_left_eye">请眨眨左边眼睛</string>
+    <string name="action_blink_right_eye">请眨眨右边眼睛</string>
+    <string name="action_open_mouth">张大嘴</string>
+    <string name="action_lean_head_left">向左摇头</string>
+    <string name="action_lean_head_right">向右摇头</string>
+    <string name="action_head_up">向上抬头</string>
+    <string name="action_head_down">向下低头</string>
+
+
+</resources>

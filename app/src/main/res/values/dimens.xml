@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="success_width">45dp</dimen>
+    <dimen name="detect_out">2dp</dimen>
+    <dimen name="preview_margin">50dp</dimen>
+    <dimen name="preview_land_margin">20dp</dimen>
+    <dimen name="head_width">200dp</dimen>
+</resources>
